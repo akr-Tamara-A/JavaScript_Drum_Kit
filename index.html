@@ -7,21 +7,76 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Т.Андреева">
-    <title>Base</title>
+    <title>JavaScript Drum Kit</title>
   </head>
   <body class="page">
     <div class="page__container">
       <!--Header-->
       <header class="header page__header">
-
+        <div class="header__container">
+          <h1 class="header__title">JavaScript Drum Kit</h1>
+        </div>
       </header>
       <!--Content-->
       <main class="content page__content">
-
+        <div class="content__container">
+          <ul class="keys">
+            <li class="key" data-key="65">
+              <kbd>A</kbd>
+              <span class="sound">bem</span>
+            </li>
+            <li class="key" data-key="83">
+              <kbd>S</kbd>
+              <span class="sound">boom</span>
+            </li>
+            <li class="key" data-key="68">
+              <kbd>D</kbd>
+              <span class="sound">bum</span>
+            </li>
+            <li class="key" data-key="70">
+              <kbd>F</kbd>
+              <span class="sound">conga nice</span>
+            </li>
+            <li class="key" data-key="71">
+              <kbd>G</kbd>
+              <span class="sound">dry snare</span>
+            </li>
+            <li class="key" data-key="72">
+              <kbd>H</kbd>
+              <span class="sound">long mid tom</span>
+            </li>
+            <li class="key" data-key="74">
+              <kbd>J</kbd>
+              <span class="sound">mean snare</span>
+            </li>
+            <li class="key" data-key="75">
+              <kbd>K</kbd>
+              <span class="sound">short conga tom</span>
+            </li>
+            <li class="key" data-key="76">
+              <kbd>L</kbd>
+              <span class="sound">snare</span>
+            </li>
+          </ul>
+        </div>
+        <audio data-key="65" src="./audio/bem.wav"></audio>
+        <audio data-key="83" src="./audio/boom.wav"></audio>
+        <audio data-key="68" src="./audio/bum.wav"></audio>
+        <audio data-key="70" src="./audio/conga_nice.wav"></audio>
+        <audio data-key="71" src="./audio/dry_snare.wav"></audio>
+        <audio data-key="72" src="./audio/long_mid_tom.wav"></audio>
+        <audio data-key="74" src="./audio/mean_snare.wav"></audio>
+        <audio data-key="75" src="./audio/short_conga_tom.wav"></audio>
+        <audio data-key="76" src="./audio/snare.wav"></audio>
       </main>
       <!--Footer-->
       <footer class="footer page__footer">
-      
+        <div class="footer__container">
+          <span class="footer__source">Source:
+            <a href="https://courses.wesbos.com/account/access/5eef9da6055a68151fb7c773/view/194130650" 
+            class="footer__link">JavaScript30</a>
+          </span>
+        </div>
       </footer>
     </div>
 
