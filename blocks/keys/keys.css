@@ -1,3 +1,10 @@
 .keys {
-  
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0;
+  padding: 0;
 }
